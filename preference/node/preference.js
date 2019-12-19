@@ -4,7 +4,7 @@ const util = require('util');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const url = "http://recommendation:8080"
+const url = "http://recommendations:8080"
 
 const responseStringFormat = "preference => %s\n";
 
