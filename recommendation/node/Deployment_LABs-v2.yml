@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - env:
-        image: example/recommendation:v2
+        image: mcandelieri/recommendation:v2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:

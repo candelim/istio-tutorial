@@ -5,7 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const os = require('os');
 
-const responseStringFormat = "recommendation => %s\n";
+const responseStringFormat = "recommendation V2 => %s\n";
 
 var misbehave = false;
 
