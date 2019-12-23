@@ -33,6 +33,11 @@ function getPreference(callback) {
     });
 };
 
+app.get('/health', function(request, response){
+        console.log('Service Status OK');
+        response.sendStatus(200);
+});
+
 app.listen(8080, function() {
     console.log('Customer listening on port 8080')
 });
