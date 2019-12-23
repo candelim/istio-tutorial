@@ -3,7 +3,7 @@ kind: DestinationRule
 metadata:
   name: recommendation
 spec:
-  host: recommendation
+  host: recommendations
   subsets:
   - labels:
       version: v1

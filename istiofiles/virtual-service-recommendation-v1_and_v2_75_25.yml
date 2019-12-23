@@ -4,15 +4,15 @@ metadata:
   name: recommendation
 spec:
   hosts:
-  - recommendation
+  - recommendations
   http:
   - route:
     - destination:
-        host: recommendation
+        host: recommendations
         subset: version-v1
       weight: 75
     - destination:
-        host: recommendation
+        host: recommendations
         subset: version-v2
       weight: 25
 ---
